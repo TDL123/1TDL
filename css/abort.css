@@ -1,0 +1,30 @@
+
+#aboutFlash{ height: 252px; width: 100%; overflow: hidden; position: relative; border-bottom: 2px solid #0082c3; margin-top: 30px;}
+.aboutFlash{ height: 252px; width: 1920px; position: absolute; margin-left: -960px; top: 0; left: 50%;}
+.aboutFlash li{ position: absolute; top: 0; left: 0; display: none; width: 100%;}
+.aboutFlash li img{height: 252px; width: auto;}
+
+#inImgText{ width: 100%; height: 31px; background: #e5e5e5; border-bottom:1px solid #c5c5c5;}
+.inImgText{  width: 1000px; height: auto; margin: 0 auto; }
+.inImgText span{ display: block; float: right; width: ; padding-right: 30px; line-height: 31px; height: 31px; color: #7f7f7f;}
+.inImgText a{ color: #acacac;}
+.inImgText a:hover{ color: #729fc0;} 
+
+#mainText{ background: #f6f6f6; border-bottom: 4px solid #e2e2e2;}
+.mainText{ position: relative; width: 1000px; height: auto; margin: 0 auto;}
+.mainText h3{ width: 171px; height: 41px; background: url(../img/currentP.png) no-repeat; padding-left:16px ; line-height: 41px; position: absolute; top: -43px; left: 0;}
+.main-left{ float: left; width: 185px; height: auto;}
+.mainNav{ width: 183px; height: 197px; padding-bottom: 14px; background: #f6f6f6; border: 1px solid #dedede; margin-top: -1px;}
+.mainNav li{ padding-left: 30px; height: 25px; line-height: 25px; margin-top: 4px; color: #4f4848;}
+.mainNav li a{color: #4f4848; display: block; width: 100%; height: 100%;}
+.mainNav .current{ background: url(../img/arrow.png) no-repeat; height: 23px; border-top: 1px solid #dedede; border-bottom: 1px solid #dedede; }
+.mainNav .current a{color: #017bc1;}
+.line{ width: 100%; height: 4px; background: url(../img/line.jpg) no-repeat;}
+.es{ padding:44px 0 0 92px; width: 93px; height: 82px; background: url(../img/es.jpg) no-repeat;}
+.es p{  color: #3f3f3f; line-height: 18px;}
+.es .blue{color: #0172ac;}
+.main-middle{ height: 544px; width: 38px; float: left; background: url(../img/middle.png) no-repeat;}
+.main-right{ float: left; padding: 48px 30px 54px 0 ; width: 743px;}
+.main-right dl{ color: #4c4c4c; margin-bottom: 32px;}
+.main-right dt{ height: 32px; line-height: 32px; font-size: 18px;}
+.main-right dd{ line-height: 24px; font-size: 12px;}

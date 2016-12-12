@@ -1,0 +1,115 @@
+/*初始化*/
+body,div,img,dl,dt,dd,ul,li,h1,h2,h3,h4,span,p,i,b,em,a{ margin:0; padding:0;}
+li{ list-style: none;}
+img{ border: 0 none; vertical-align: top;}
+a{ text-decoration: none; color: #000;}
+a:hover{ text-decoration: none; color: #000;}
+body{ font-family: "微软雅黑"; font-size: 12px; color: #fff; background: #fff;}
+.clearfix { *zoom:1;}
+.clearfix:after {content: "TDL"; display: block; height:0; clear:both; visibility: hidden;}
+
+#header{ width: 100%; height: auto; border-top: 7px solid #006bb4;}
+.header_main{ width: 1000px; margin: 0 auto;}
+.header_main h1{ float: left; width: 320px; height: 65px; margin: 31px 0 0 14px;}
+.nav{ float: left; width: auto; height:66px; margin: 31px 0 0 184px; padding-left: 13px;}
+.nav li{ position:relative; float: left; width: auto; height: 66px; text-align: center; line-height: 66px; margin-right: 30px; font-size: 18px;}
+.nav a{ color: #3d3d3d;}
+.nav a:hover{ color: #1275b9;}
+
+.navDetails{ position: absolute; top: 65px; left: -10px; width: 172px; height: auto; padding: 20px 0 20px 15px; border: 1px solid #e9e9e9; background: #fff; border-radius: 6px; box-shadow: 0 0 5px #e9e9e9; z-index: 99;}
+.navDetails dt{ position: relative; width: 100%; height: 37px; font-size: 14px;}
+.navDetails a{ display: block; width: 136px; height: 35px; line-height: 35px; border: 1px solid #fff; padding-left: 10px; border-radius: 6px; text-align: left;}
+.navDetails a:hover{ background: #efefef; border-color: #e3e3e4; color: #555354;}
+.navDetails .navDetails{ top: 0; left: 172px;}
+.navDetails .navDetails a{ width:142px;}
+.curNav{ background: #efefef; border-color: #e3e3e4; color: #555354;}
+
+#flash{ position: relative; width: 100%; height: 508px; margin-top: 30px; background: url(../img/flash_bg.png) repeat; overflow: hidden;}
+.leftBtn,.rightBtn{ position: absolute; top: 160px; width: 113px; height: 113px; display: block; overflow: hidden; text-indent: -99em; background: url(../img/btn.png) no-repeat; z-index: 88;}
+.leftBtn{ left: 0; background-position: 0 0;}
+.rightBtn{ right: 0; background-position:-114px 0;}
+.flashList{ position: absolute; left: 50%; top: 0; width: 1920px; height: 460px; margin-left: -960px;}
+.flashList li{ position: absolute; left: 0; top: 0; width: 100%; height: auto;}
+.flashBtn{ position: absolute; left: 0; bottom: 0; width: 100%; height: 45px; margin-top: 2px; background: #eaeaea; text-align: center;}
+.flashBtn span{ display: inline-block; width: 108px; height: 9px; line-height: 45px; background: url(../img/flashOld.png) no-repeat; margin-right: -2px; overflow: hidden; text-indent: -99em; margin-top: 17px; cursor: pointer;}
+.flashBtn .flashCur{ background: url(../img/flashCur.png);}
+
+#ball{ position: relative; width: 100%; height: 383px; overflow: hidden;}
+.ballAn{ position: absolute; top: 110px; left: 50%; margin-left: -500px; width: 1500px; height: 160px;}
+.ballAn li{ position: relative; float: left; width: 334px; height: 160px; padding-left: 160px; background: url(../img/icon.png) no-repeat; overflow: hidden;}
+.ballAn .linkImg{ position: absolute; top: 0; left: 0; display: block; width: 160px; height: 160px;  overflow: hidden; text-indent: -99em;}
+.ballAn h3{ position: absolute; top: 15px; left: 175px; width: 292px; height: 24px; line-height: 24px; font-weight: normal;}
+.ballAn a{ font-size: 24px; color: #1275b9;}
+.ballAn a:hover{ color: #3e495d;}
+.ballAn span{ display: block; position: absolute; top: 43px; left: 175px; width: 292px; height: auto; line-height: 24px; color: #73747b;}
+.ballAn .ballOne{ background-position: 0 0;}
+.ballAn .ballTwo{ background-position: 0 -167px;}
+.ballAn .ballThree{ background-position: 0 -334px;}
+.ballAn .ballFour{ background-position: 0 -500px;}
+.ballAn .ballAn1Cur{ background: url(../img/icon.png) no-repeat 0 -668px;}
+.ballAn .ballAn2Cur{ background: url(../img/icon.png) no-repeat 0 -836px;}
+.ballAn .ballAn3Cur{ background: url(../img/icon.png) no-repeat 0 -1006px;}
+.ballAn .ballAn4Cur{ background: url(../img/icon.png) no-repeat 0 -1176px;}
+
+#abort{ position: relative; width: 100%; height: 501px; border-top: 1px solid #ebebeb; border-bottom: 1px solid #ebebeb; background: #f6f6f6; overflow: hidden;}
+.abort{ position: absolute; top: 0; left: 50%; margin-left: -500px; width: 1000px; height: 501px; overflow: hidden;}
+.abort h3{ position: absolute; left: 0; top: 50px; width: 120px; height: 50px; line-height: 30px;background: url(../img/btn.png) no-repeat -271px -15px; text-align: right; color: #606060; font-size: 14px;}
+.abort h3 span{ margin-left: 60px;}
+.abortText{ width: 1000px; height: 242px; margin-top: 124px; border-radius: 2px; overflow: hidden;}
+.abortTextLeft{ position: relative;}
+.abortTextLeft,.abortTextRight{ float: left; width: 491px; height: 241px; overflow: hidden;}
+.abortTextLeft span{ display: block; position: absolute; left: 0; top: 0px; width: 454px; height: 217px; line-height: 24px; padding: 24px 14px 0 23px; z-index: 5; filter:progid:DXImageTransform.Microsoft.gradient(enabled="true", startColorstr="#99035FAD", endColorstr="#99035FAD");
+background-color:rgba(3,95,173,0.6); color: #fff;}
+.abortTextRight{ display: block; background: #44464f; position: relative;}
+.abortTextRight .textDet{ position: absolute; left: 0; top: 0; width: 1000%; height: 241px;}
+.abortTextRight .textDet dt{ position: relative; float: left; width: 491px; height: 241px; background: url(../img/textBg.png) no-repeat;}
+.textDet dt span{ position: absolute; top: 102px; left: 90px; width: 390px; height: auto; font-size: 14px; line-height: 24px;}
+.abortLinkLeft,.abortLinkRight{ display: block; position: absolute; top: 380px; width: 29px; height: 29px; border: 1px solid #c0c1c4; overflow: hidden; text-indent: -99em; background: url(../img/btn.png) no-repeat;}
+.abortLinkLeft{ right: 40px; background-position: -1px -115px;}
+.abortLinkRight{ right: 0; background-position: -1px -146px;}
+.abortLinkLeft:hover{ background-position: -31px -114px; border: 0 none;}
+.abortLinkRight:hover{ background-position: -31px -145px; border: 0 none;}
+
+#team{ position: relative; width: 100%; height: 318px; border-bottom:4px solid #e2e2e2; overflow: hidden;}
+.team{ position: absolute; top: 0; left: 50%; margin-left: -500px; width: 1000px; height: 318px; overflow: hidden;}
+.team h3{ position: absolute; left: 0; top: 38px; width: 135px; height: 45px; line-height: 30px; background: url(../img/btn.png) no-repeat -262px -76px; text-align: right; color: #6d6d6d; font-size: 14px; z-index: 100;}
+.team h3 span{ margin-left: 60px;}
+.teamImg{ position: absolute; left: 0; top: 127px; width: 1000%; height: 130px; overflow: hidden;}
+.teamImg li{ float: left; width: 193px; height: 130px; margin-right: 10px;}
+.teamLinkLeft,.teamLinkRight{ display: block; position: absolute; top: 262px; width: 29px; height: 29px; border: 1px solid #c0c1c4; overflow: hidden; text-indent: -99em; background: url(../img/btn.png) no-repeat;}
+.teamLinkLeft{ right: 40px; background-position: -1px -115px;}
+.teamLinkRight{ right: 0; background-position: -1px -146px;}
+.teamLinkLeft:hover{ background-position: -31px -114px; border: 0 none;}
+.teamLinkRight:hover{ background-position: -31px -145px; border: 0 none;}
+
+#footer{ width: 100%; height: 322px; background: url(../img/footerBg.png) repeat-x; border-bottom: 9px solid #0470ba;}
+.footer{ width: 1000px; height: auto; margin: 0 auto;}
+.footerText{ float: left; margin-left: -1px;}
+.footer h3{ width: 150px; height: 30px; line-height: 30px; padding:22px 0 14px 25px; font-weight: 500; font-size: 14px;}
+.footer ul{ width: 307px; height: 196px; padding: 10px 0 0 24px; border:1px solid #72c1f6; background: url(../img/footerInBg.png) repeat-x;}
+.footer li{ line-height: 24px;}
+.footer a{ color: #fff;}
+.footer a:hover{ color: #11f7ff;}
+.tel li{ line-height: 34px; height: 35px;}
+.tel i{ display:block; width: 34px; height: 35px; background: url(../img/tel.png) no-repeat; float: left;}
+.tel .tel{ background-position: 0 0;}
+.tel .phone{ background-position: 0 -35px;}
+.tel .qq{ background-position: 0 -70px;}
+.tel .email{ background-position: 0 -105px;}
+.tel .pos{ background-position: 0 -140px;}
+
+#copyright{ width: 100%; height: 56px; background: #003a61; padding-top: 14px;}
+.copyright{ width: 1000px; height: auto; margin: 0 auto;}
+.copyright h3{ padding-left: 52px; height: 40px; background: url(../img/btn.png) no-repeat -355px -338px; line-height: 40px; font-weight: 400; font-size: 11px;}
+
+.navRight{ width: 62px; height: 198px; position: fixed; right: 0px; top: 50%; margin-top: -99px; z-index: 99;}
+.navRight li{ width: 100%; height: 61px; background: url(../img/btn.png) no-repeat; cursor: pointer;}
+.navRight a{display: block; width: 100%; height: 100%; line-height: 100%; text-align: center; font-size: 5px;}
+.navRight .btn1{ background-position: 0 -178px;}
+.navRight .btn2{ background-position: 0 -239px;}
+.navRight .btn3{ background-position: 0 -300px;}
+.navRight .btn4{ background-position: 0 -361px; overflow: hidden; text-indent: -99em;}
+
+#toTop{ width: 44px; height: 44px; position: fixed; bottom: 29px; left: 50%; margin-left: 500px; cursor: pointer; display: none;}
+#toTop i{ width: 44px; height: 44px; display: block; background: url(../img/btn.png) no-repeat -67px -115px; overflow: hidden; text-indent: -99em;}
+
